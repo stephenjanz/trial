@@ -30,7 +30,7 @@ class Student
     protected:
         string m_name;
         int m_age;
-}
+};
 
 int main()
 {

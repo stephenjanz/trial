@@ -6,6 +6,8 @@ class Shape
     public:
         void setWidth(int);
         void setHeight(int);
+        int getWidth(void);
+        int getHeight(void);
 
     protected:
         int width;

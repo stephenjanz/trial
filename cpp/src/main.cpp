@@ -5,32 +5,9 @@
 #include <iostream>
 #include <string>
 
+#include "student.hpp"
+
 using namespace std;
-
-class Student
-{
-    public:
-
-        void setName(string name) {
-            m_name = name;
-        }
-
-        void setAge(int age) {
-            m_age = age;
-        }
-
-        string getName() {
-            return m_name;
-        }
-
-        int getAge() {
-            return m_age;
-        }
-
-    protected:
-        string m_name;
-        int m_age;
-};
 
 int main()
 {

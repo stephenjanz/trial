@@ -4,13 +4,8 @@
 class Shape
 {
     public:
-        void setWidth(int w) {
-            width = w;
-        }
-
-        void setHeight(int h) {
-            height = h;
-        }
+        void setWidth(int);
+        void setHeight(int);
 
     protected:
         int width;

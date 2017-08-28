@@ -6,18 +6,20 @@
 #include <string>
 
 #include "student.hpp"
+#include "shape.hpp"
 
 using namespace std;
 
 int main()
 {
-    Student student1;
+    Rectangle rect;
 
-    student1.setAge(25);
-    student1.setName("Stephen Janz");
+    rect.setWidth(10);
+    rect.setHeight(5);
 
-    cout << "Name : " << student1.getName() << endl;
-    cout << "Age : " << student1.getAge() << endl;
+    cout << "Width : " << rect.getWidth() << endl;
+    cout << "Height : " << rect.getHeight() << endl;
+    cout << "Area : " << rect.getArea() << endl;
 
     return 0;
 }

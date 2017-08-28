@@ -6,7 +6,7 @@
 class Student
 {
     public:
-        void setName(string);
+        void setName(std::string);
         void setAge(int);
         std::string getName(void);
         int getAge(void);

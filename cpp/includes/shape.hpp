@@ -4,6 +4,7 @@
 class Shape
 {
     public:
+        Shape();
         void setWidth(int);
         void setHeight(int);
         int getWidth(void);

@@ -4,6 +4,13 @@
 
 #include "shape.hpp"
 
+Shape::Shape()
+: width(0), height(0)
+{
+    cout << "Width : " << width << endl;
+    cout << "Height : " << height << endl;
+}
+
 inline void Shape::setWidth(int w)
 {
     width = w;

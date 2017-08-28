@@ -5,7 +5,6 @@
 #include <iostream>
 #include <string>
 
-#include "student.hpp"
 #include "shape.hpp"
 
 using namespace std;
@@ -13,6 +12,7 @@ using namespace std;
 int main()
 {
     Rectangle rect;
+    Shape shap;
 
     rect.setWidth(10);
     rect.setHeight(5);

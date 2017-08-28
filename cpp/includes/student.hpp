@@ -1,16 +1,18 @@
 #ifndef STUDENT_HPP
 #define STUDENT_HPP
 
+#include <string>
+
 class Student
 {
     public:
         void setName(string);
         void setAge(int);
-        string getName(void);
+        std::string getName(void);
         int getAge(void);
 
     protected:
-        string m_name;
+        std::string m_name;
         int m_age;
 };
 

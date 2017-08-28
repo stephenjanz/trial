@@ -2,8 +2,11 @@
  * Student class
  */
 
+#include <string>
+
 #include "student.hpp"
 
+using namespace std;
 
 inline void Student::setName(string name)
 {

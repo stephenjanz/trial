@@ -5,7 +5,9 @@
 #include <iostream>
 #include <string>
 
+#include "student.hpp"
 #include "shape.hpp"
+#include "rectangle.hpp"
 
 using namespace std;
 

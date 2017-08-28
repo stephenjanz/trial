@@ -4,7 +4,7 @@
 
 #include "rectangle.hpp"
 
-inline int Rectangle::getArea()
+int Rectangle::getArea()
 {
     return (width * height);
 }

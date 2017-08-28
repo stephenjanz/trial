@@ -4,10 +4,10 @@ CFLAGS = -I$(IDIR)
 
 ODIR = obj
 
-_DEPS = shape.hpp student.hpp
+_DEPS = shape.hpp student.hpp rectangle.hpp
 DEPS = $(patsubst %,$(IDIR)/%,$(_DEPS))
 
-_OBJ = shape.o student.o
+_OBJ = shape.o student.o rectangle.o
 OBJ = $(patsubst %,%(ODIR)/%,$(_OBJ))
 
 $(ODIR)/shape.o: shape.cpp $(DEPS)
@@ -15,6 +15,9 @@ $(ODIR)/shape.o: shape.cpp $(DEPS)
 
 $(ODIR)/student.o: student.cpp $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
+
+$(ODIR)/rectangle.o: rectangle.cpp $(DEPS)
+	$(CC) -c -o $@ $< $(CLFAGS)
 
 main: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)

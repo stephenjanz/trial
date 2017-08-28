@@ -2,7 +2,11 @@
  *
  */
 
+#include <iostream>
+
 #include "shape.hpp"
+
+using namespace std;
 
 Shape::Shape()
 : width(0), height(0)
